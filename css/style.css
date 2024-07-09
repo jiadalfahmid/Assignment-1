@@ -152,6 +152,14 @@ header .hero{
     max-width: 530px;
   }
 /* web-dev style ends */
+/* my inspiration section starts */
+.my-inspiration{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 80px auto;
+}
+/* my inspiration section ends */
 /* footer section starts */
 footer{
   height: 100px;
