@@ -84,6 +84,18 @@
   border: 1px solid rgb(13, 19, 33, 0.7);
 }
 
+.learn-more{
+  color: rgb(13, 19, 33);
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 19px;
+  text-align: left;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
 /* global style ends */
 /* body style starts */
 /* header style starts */
@@ -159,7 +171,45 @@ header .hero{
   justify-content: center;
   margin: 80px auto;
 }
+
+.iframe{
+  padding: 32px;
+}
 /* my inspiration section ends */
+/* target section starts */
+.image-boxes{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 24px;
+}
+
+.image-boxes .image-box1{
+  width: 364px;
+  height: 299px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.image-boxes .image-box2{
+  width: 364px;
+  height: 299px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+}
+.image-boxes .image-box3{
+  width: 364px;
+  height: 299px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
+
+.image-boxes img{
+  margin-bottom: 24px;
+}
+/* target section ends */
 /* footer section starts */
 footer{
   height: 100px;
