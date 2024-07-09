@@ -19,11 +19,11 @@
 
 .heading{
   color: rgb(13, 19, 33);
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 800;
   line-height: 68px;
-  letter-spacing: 0%;
   text-align: center;
+  margin-bottom: 24px;
 }
 
 .section-title{
@@ -32,14 +32,16 @@
   font-weight: 800;
   line-height: 37px;
   text-align: center;
+  margin-bottom: 24px;
 }
 
 .title1{
   color: rgba(13, 19, 33, 0.7);
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 36px;
   text-align: left;
+  margin-bottom: 16px;
 }
 
 .title2{
@@ -48,18 +50,31 @@
   font-weight: 800;
   line-height: 36px;
   text-align: left;
+  margin-bottom: 8px;
 }
 
-.para{
+.para1{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  max-width: 852px;
+  margin-bottom: 32px;
+}
+
+.para2{
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   text-align: left;
+  margin-bottom: 32px;
 }
 
 .btn{
   color: rgb(13, 19, 33);
+  background-color: white;
   font-size: 20px;
   font-weight: 500;
   line-height: 23px;
@@ -72,6 +87,36 @@
 /* global style ends */
 /* body style starts */
 /* header style starts */
+header{
+  max-height: 652px;
+  background: url(../images/hero-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 130px auto;
+}
 
+header .hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero img{
+  width: 173.03px;
+  margin: 26px auto 43.1px;
+}
+
+.hero button{
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  padding: 21px 24px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  margin-bottom: 44px;
+}
 /* header style ends */
 /* body style ends */
