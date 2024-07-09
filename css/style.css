@@ -119,4 +119,35 @@ header .hero{
   margin-bottom: 44px;
 }
 /* header style ends */
+/* web-dev style starts */
+  .web-dev{
+    padding: 80px 97px;
+  }
+
+  .card1 , .card3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  }
+
+  .card2{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  }
+
+  .card1 .card-content, .card3 .card-content{
+    max-width: 468px;
+  }
+
+  .card2 .card-content {
+    max-width: 530px;
+  }
+/* web-dev style ends */
 /* body style ends */
